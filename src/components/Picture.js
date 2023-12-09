@@ -4,7 +4,7 @@ function Picture() {
 
     return (
         <div className="Image">
-            <img src={require("./testpic.jpg")}></img>
+            <img src={"picsum.photos/200/300"} alt=""></img>
         </div>
     )
 }
